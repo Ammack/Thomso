@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Poppins:wght@300&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+
+}
+body{
+
+}
+.slide1{
+  height: auto;
+  width: auto;
+  margin: auto;
+
+}
+.main-timer{
+  height: auto;
+  /* width: auto; */
+  background-image: url("image.png");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+  color: white;
+}
+#work{
+  font-family: 'Poppins';
+  font-size: 4em;
+  text-align: center;
+  justify-content: space-around;
+  padding: 5vh;
+  font-weight: bold;
+
+}
+#work-timer{
+  display: flex;
+  justify-content: center;
+  font-size: 5em;
+  font-family: 'Courier New', Courier, monospace;
+  margin:15vh 0;
+
+}
+.buttons{
+  text-justify: auto;
+  text-align: center;
+  padding: 30px;
+
+
+}
+.buttons button{
+  margin: 30px;
+  font-size: 1.6em;
+  font-style: 'Poppins';
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top:3px;
+  padding-bottom:2px;
+  color: black;
+  border-color: black;
+  border-width: 3px;
+}
+
+button:hover{
+  background-color: white;
+  color: black;
+  /* font-weight: bolder; */
+}
+.gap-timer{
+  height: 50vh;
+  background-image: url("break.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+  color:whitesmoke;}
+#break{
+  font-family: 'Poppins';
+  font-size: 2.5em;
+  text-align: center;
+  justify-content: space-around;
+  padding: 5vh;
+  font-weight: bold;
+  color: black;
+
+}
+#break-timer {
+    display: flex;
+    /* padding-left: 35%; */
+    /* align-items: center; */
+    justify-content: center;
+    font-size: 5em;
+    font-family: 'Courier New', Courier, monospace;
+    margin: -5vh 0;
+    font-weight: bolder;
+    color: black;
+}
+#cycles{
+  font-family: 'Poppins';
+  font-size: 3em;
+  text-align: center;
+  justify-content: space-around;
+  padding: 7vh;
+  font-weight: bold;
+
+
+}
+#counter{
+  display: flex;
+      /* padding-left: 47%; */
+      justify-content: center;
+      font-size: 5em;
+      font-family: 'Courier New', Courier, monospace;
+      margin: 5vh 0;
+
+}
+.cycles{
+  background-image: url("cyclist.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  color:white;
+  margin-top: 10px;
+  font-weight: bolder;
+  opacity: 0.9;
+
+}
+body{
+  background-color: black;
+}
+.slide2{
+  height:auto;
+  margin-top: 7vh;
+
+}
+.slide3{
+  padding: 5vh 0;
+  text-align: center;
+  color: white;
+}
